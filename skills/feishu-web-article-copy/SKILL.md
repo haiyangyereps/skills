@@ -39,7 +39,7 @@ The reliable Feishu path is not pasting Markdown source or literal image tags. G
 Convert Markdown with remote images to a browser-copyable HTML page:
 
 ```bash
-python3 /Users/haiyang/.codex/skills/feishu-web-article-copy/scripts/md_to_feishu_html.py article.md -o article-复制到飞书.html --title "文章标题"
+python3 scripts/md_to_feishu_html.py article.md -o article-复制到飞书.html --title "文章标题"
 ```
 
 Options:
