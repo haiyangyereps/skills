@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feishu Article Copy"
+  short_description: "Paste web articles into Feishu with remote images."
+  default_prompt: "Use $feishu-web-article-copy to convert this article into Markdown and a Feishu-copyable HTML page that preserves original image URLs."
