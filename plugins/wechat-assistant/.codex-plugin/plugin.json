@@ -1,0 +1,21 @@
+{
+  "name": "wechat-assistant",
+  "version": "0.1.0",
+  "description": "Operate the logged-in WeChat Mac client through visible UI with explicit user confirmation.",
+  "author": {
+    "name": "haiyangyereps"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Wechat Assistant",
+    "shortDescription": "Read visible WeChat chats and draft/send confirmed messages.",
+    "longDescription": "A local Codex plugin for operating the user's logged-in WeChat Mac client through the visible desktop UI. It does not decrypt databases, bypass login, or read messages in the background.",
+    "developerName": "haiyangyereps",
+    "category": "Productivity",
+    "capabilities": [
+      "desktop-ui-automation",
+      "human-confirmed-send"
+    ],
+    "defaultPrompt": "Use the WeChat Mac client to read the visible chat or prepare a message for confirmation."
+  }
+}
